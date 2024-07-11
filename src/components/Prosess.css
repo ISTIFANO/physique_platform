@@ -1,0 +1,31 @@
+/* Prosess.css */
+.card {
+    background-color: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: var(--bg-primary);
+    color: var(--primary-foreground);
+    transform: translateY(-5px);
+    background-color:#ffef9f;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover .icon {
+    transform: scale(1.2);
+  }
+  
+  .text-muted-foreground {
+    color: var(--text-muted-foreground);
+  }
+  
