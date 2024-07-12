@@ -15,7 +15,7 @@ return (
 */}
 
 <footer className="bg-white">
-  <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8">
+  <div className="w-screen p-4 pr-9">
     <div className="lg:flex lg:items-center lg:justify-between">
         <img src={logo} alt="logo de marwane chargui " className='h-[156px]  cursor-pointer' srcset="" />
      
